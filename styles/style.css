@@ -11,3 +11,12 @@ header{
     top: 0px;
     right: 0px;
 }
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+div {
+    margin: 10px;
+}

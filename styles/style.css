@@ -1,3 +1,13 @@
-body {
+html {
     background-color: white;
+}
+main {
+    box-align: auto;
+}
+header{
+    /* padding: 20px 20px 20px 20px; */
+    margin: 20px 20px 20px 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }

@@ -3,6 +3,7 @@ html {
     font-family: arial, sans-serif;
     font-size: 14px;
     line-height: 40px;
+    color: rgba(0, 0, 0, 0.54);
 }
 body {
     display: grid;
@@ -11,6 +12,7 @@ body {
 }
 main {
     height: 80vh;
+    width: 60%;
     grid-area: main;
     justify-self: center;
     align-self: center;
@@ -30,11 +32,13 @@ nav {
 div {
 }
 footer {
-
+    background-color: rgb(242, 242, 242);
     display: grid;
-    width: 99vw;
+    width: 100%;
     position: fixed;
     bottom: 0px;
+    left: 0px;
+    padding-left: 27px;
 
 }
 form {
@@ -51,18 +55,21 @@ form {
 .searchbar {
     grid-area:searchbar;
     border-radius: 15px;
+    width: 100%;
 }
 button {
-    width: auto;
+    
     margin: auto;
     padding: 10px 5px 10px 5px;
     border-radius: 5px;
 }
 .button1 {
     grid-area: button1;
+    justify-self: end;
 }
 .button2 {
     grid-area: button2;
+    justify-self: start;
 }
 .text-center {
     text-align: center;
@@ -96,4 +103,5 @@ button {
 }
 .country {
     height: 40px;
+    border-bottom: 1px solid rgb(228, 228, 228);
 }

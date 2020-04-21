@@ -1,15 +1,23 @@
 html {
     background-color: white;
 }
+body {
+    display: grid;
+    grid-template-areas: "header" "main" ;
+    grid-row-gap: 1px;
+}
 main {
-    box-align: auto;
+    height: 80vh;
+    grid-area: main;
+    justify-self: center;
+    align-self: center;
 }
 header{
-    /* padding: 20px 20px 20px 20px; */
-    margin: 20px 20px 20px 20px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+   height:10vh;
+   grid-area: header;
+   display:  flex;
+   justify-content: flex-end;
+
 }
 nav {
     display: flex;
@@ -21,6 +29,41 @@ div {
     margin: 10px;
 }
 footer {
+    height: 10vh;
     position: fixed;
     bottom: 0px;
+
+}
+img {
+    padding-top: 110px;
+}
+form {
+    
+    display: grid;
+    padding-top:  20px;
+    padding-bottom: 20px;
+    grid-template-areas:
+        "searchbar searchbar"
+        "button1 button2";
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+    }
+.searchbar {
+    grid-area:searchbar;
+    border-radius: 15px;
+}
+button {
+    width: auto;
+    margin: auto;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+}
+.button1 {
+    grid-area: button1;
+}
+.button2 {
+    grid-area: button2;
+}
+.text-center {
+    text-align: center;
 }

@@ -6,3 +6,6 @@ html/css training:
 Recreating a copy of the google homepage with html-5 and CSS.
 
 Not finished yet.
+
+basic html structure, forms links.
+Basic CSS functions, grid and flexbox.
